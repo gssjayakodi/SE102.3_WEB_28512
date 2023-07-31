@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-image: url("./R.jpg");
+  background-image: url(loginblur.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -15,11 +15,11 @@ body {
   height: 100vh;
 }
 form {
-  background: #222536;
+  background: black;
 }
 table th {
   color: #fff;
-  background: #de8704;
+  background: #7059f5;
 }
 table th,
 table td {
@@ -27,13 +27,13 @@ table td {
   margin: 5px;
 }
 table td label {
-  color: #fffb00;
+  color: whitesmoke;
 }
 table .bottom {
-  background: #de8704;
+  background: #7059f5;
 }
 table tr td input[type="submit"] {
-  background: #088608;
+  background: blue;
   border: none;
   color: #fff;
   padding: 15px;
@@ -42,7 +42,7 @@ table tr td input[type="submit"] {
 table tr td input[type="reset"] {
   padding: 15px;
   color: #fff;
-  background: #cc145d;
+  background: red;
   border: none;
   cursor: pointer;
 }
